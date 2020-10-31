@@ -7,8 +7,9 @@ namespace very_easy_test_app.Models
     public sealed class dbContext:DbContext
     {
         public DbSet<HomeEntity> HomeOwer { get; set; }
+        public DbSet<HomeOwenerEntity> HomeOwener { get; set; }
 
-        public dbContext(DbContextOptions options):base(options)
+        public dbContext(DbContextOptions<dbContext> options):base(options)
         {
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }

@@ -1,6 +1,6 @@
 using very_easy_test_app.Models.DTO;
 
-namespace very_easy_test_app.Models.Entities
+namespace very_easy_test_app.Models.DTO
 {
     public class DTOHomeOwener:DTOBase
     {

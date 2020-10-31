@@ -8,7 +8,11 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using very_easy_test_app.AutoMpper;
 using very_easy_test_app.Models;
+using AutoMapper;
+using Newtonsoft.Json;
+
 
 namespace very_easy_test_app
 {
@@ -24,8 +28,9 @@ namespace very_easy_test_app
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(HomeMapperProfile));
             services.AddDbContext<dbContext>();
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddNewtonsoftJson();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
