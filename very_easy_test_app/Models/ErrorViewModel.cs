@@ -1,5 +1,3 @@
-using System;
-
 namespace very_easy_test_app.Models
 {
     public class ErrorViewModel

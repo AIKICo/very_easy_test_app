@@ -3,7 +3,7 @@ using very_easy_test_app.Models.Entities;
 
 namespace very_easy_test_app.Models.EntityConfigure
 {
-    public class EntityConfigureHome:EntityConfigureBase<HomeEntity>
+    public class EntityConfigureHome : EntityConfigureBase<HomeEntity>
     {
         public override void Configure(EntityTypeBuilder<HomeEntity> builder)
         {

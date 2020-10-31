@@ -1,18 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Arch.EntityFrameworkCore.UnitOfWork;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using very_easy_test_app.AutoMpper;
 using very_easy_test_app.Models;
-using AutoMapper;
-using Newtonsoft.Json;
-
 
 namespace very_easy_test_app
 {
@@ -29,7 +23,7 @@ namespace very_easy_test_app
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(HomeMapperProfile));
-            services.AddDbContext<dbContext>();
+            services.AddDbContext<dbContext>().AddUnitOfWork<dbContext>();
             services.AddControllersWithViews().AddNewtonsoftJson();
         }
 
@@ -57,8 +51,8 @@ namespace very_easy_test_app
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    "default",
+                    "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
