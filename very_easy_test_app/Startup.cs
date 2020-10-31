@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using very_easy_test_app.AutoMpper;
+using very_easy_test_app.BuilderExtensions;
 using very_easy_test_app.Models;
 
 namespace very_easy_test_app
@@ -22,7 +23,9 @@ namespace very_easy_test_app
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpContextAccessor();
             services.AddAutoMapper(typeof(HomeMapperProfile));
+            services.RegisterService();
             services.AddDbContext<dbContext>().AddUnitOfWork<dbContext>();
             services.AddControllersWithViews().AddNewtonsoftJson();
         }

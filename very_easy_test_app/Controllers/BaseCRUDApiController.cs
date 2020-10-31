@@ -15,6 +15,7 @@ using very_easy_test_app.Services;
 namespace very_easy_test_app.Controllers
 {
     [ApiController]
+    [Route("[controller]")]
     public abstract class BaseCRUDApiController<T, V> : ControllerBase
         where T : EntityBase
         where V : DTOBase
@@ -22,18 +23,15 @@ namespace very_easy_test_app.Controllers
         private readonly IMapper _map;
         protected readonly IService<T, V> _service;
         protected readonly bool _isReadOnly;
-        protected readonly IStringLocalizer<BaseCRUDApiController<T, V>> _localizer;
 
         protected BaseCRUDApiController(
             IMapper map,
             IService<T, V> service,
-            IStringLocalizer<BaseCRUDApiController<T, V>> localizer,
             bool isReadOnly = false)
         {
             _map = map ?? throw new NullReferenceException(nameof(map));
             _service = service ?? throw new NullReferenceException(nameof(service));
             _isReadOnly = isReadOnly;
-            _localizer = localizer;
         }
 
         [HttpGet]

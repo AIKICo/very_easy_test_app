@@ -10,8 +10,7 @@ namespace very_easy_test_app.Controllers
     {
         public DTOHomeOwnerController(IMapper map,
             IService<HomeEntity, DTOHome> service,
-            IStringLocalizer<BaseCRUDApiController<HomeEntity, DTOHome>> localizer,
-            bool isReadOnly = false) : base(map, service, localizer)
+            bool isReadOnly = false) : base(map, service)
         {
         }
     }
