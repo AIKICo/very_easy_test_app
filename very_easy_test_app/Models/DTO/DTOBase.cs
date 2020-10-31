@@ -1,12 +1,13 @@
 using System;
+using very_easy_test_app.Models.Entities;
 
-namespace very_easy_test_app.Models.Entities
+namespace very_easy_test_app.Models.DTO
 {
-    public abstract class EntityBase
+    public class DTOBase
     {
         public Guid id { get; set; }
         public string title { get; set; }
         public bool allowDelete { get; set; }
-        public string tracking { get; set; }
+        public Tracking tracking { get; set; }
     }
 }
