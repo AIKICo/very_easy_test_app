@@ -62,8 +62,8 @@
         <option value="$PROJECT_DIR$/very_easy_test_app/Controllers/DTOHomeController.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app/Services/BaseService.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app/Controllers/DTOHomeOwnerController.cs" />
-        <option value="$PROJECT_DIR$/very_easy_test_app/Startup.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app/Models/DbContext.cs" />
+        <option value="$PROJECT_DIR$/very_easy_test_app/Startup.cs" />
       </list>
     </option>
   </component>
@@ -162,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604130251151</updated>
       <workItem from="1604130256383" duration="7889000" />
-      <workItem from="1604202732752" duration="3078000" />
+      <workItem from="1604202732752" duration="3114000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1604130343558</created>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604205413511</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="-">
+      <created>1604205819776</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604205819777</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,10 +393,10 @@
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="2315" y="198" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604203008726" />
-    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604205478361">
+    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604205820885">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604205478361" />
+    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604205820885" />
     <state x="2524" y="375" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604130320189">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>

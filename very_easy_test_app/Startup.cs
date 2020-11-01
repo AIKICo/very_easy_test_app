@@ -27,7 +27,8 @@ namespace very_easy_test_app
             services.AddHttpContextAccessor();
             services.AddAutoMapper(typeof(HomeMapperProfile));
             services.RegisterService();
-            services.AddDbContext<dbContext>(options=> options.UseInMemoryDatabase(databaseName:"HomeDatabase")).AddUnitOfWork<dbContext>();
+            services.AddDbContext<dbContext>(options => options.UseInMemoryDatabase(databaseName: "HomeDatabase"))
+                .AddUnitOfWork<dbContext>();
             services.AddControllersWithViews().AddNewtonsoftJson();
         }
 
