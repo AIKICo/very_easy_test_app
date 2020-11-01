@@ -14,7 +14,15 @@ namespace very_easy_test_app.Tools
         public static void Initialize(IServiceProvider serviceProvider)
         {
             var context = new dbContext(serviceProvider.GetRequiredService<DbContextOptions<dbContext>>());
-            context.
+            context.HomeOwener.Add(new HomeOwenerEntity()
+            {
+                id = Guid.NewGuid(),
+                title = "test",
+                allowDelete = true,
+                PhoneNumber = "09163085306"                
+            });
+
+            context.SaveChanges();
         }
     }
 }

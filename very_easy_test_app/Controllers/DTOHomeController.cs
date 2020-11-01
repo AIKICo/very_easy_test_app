@@ -7,10 +7,10 @@ using very_easy_test_app.Services;
 
 namespace very_easy_test_app.Controllers
 {
-    public sealed class DTOHomeController:BaseCRUDApiController<HomeOwenerEntity, DTOHomeOwener>
+    public sealed class DTOHomeController:BaseCRUDApiController<HomeEntity, DTOHome>
     {
         public DTOHomeController(IMapper map,
-            IService<HomeOwenerEntity, DTOHomeOwener> service,
+            IService<HomeEntity, DTOHome> service,
             bool isReadOnly = false):base(map, service) {}
     }
 }
