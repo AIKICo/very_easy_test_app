@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using very_easy_test_app.Models.Entities;
 
 namespace very_easy_test_app.Models.DTO

@@ -1,4 +1,6 @@
 using System;
+using System.Diagnostics;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
@@ -15,6 +17,11 @@ namespace very_easy_test_app.Controllers
             IService<HomeOwenerEntity, DTOHomeOwener> service,
             bool isReadOnly = false) : base(map, service)
         {
+            _service.AddRecordWithReturnRequest(new DTOHomeOwener()
+            {
+                title = "test",
+                PhoneNumber = "09163085306"
+            });
         }
     }
 }

@@ -18,7 +18,6 @@ namespace very_easy_test_app.AutoMpper
                     opt => opt.MapFrom(s => JsonConvert.SerializeObject(s.tracking)));
             CreateMap<HomeOwenerEntity, DTOHomeOwener>().ReverseMap().ForMember(c => c.tracking,
                 opt => opt.MapFrom(s => JsonConvert.SerializeObject(s.tracking)));
-            ;
         }
     }
 }
