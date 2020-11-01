@@ -8,16 +8,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ea7e27e-cf92-42eb-8c58-bd133ec47759" name="Default Changelist" comment="Initialize">
-      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/BaseControllerTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/CustomWebApplicationFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/HomeOwenerControllerTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/LaunchSettingsFixture.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/TestsHttpClient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/very_easy_test_app_integration_test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.very_easy_test_app/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.very_easy_test_app/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.very_easy_test_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.very_easy_test_app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_easy_test_app.sln" beforeDir="false" afterPath="$PROJECT_DIR$/very_easy_test_app.sln" afterDir="false" />
+    <list default="true" id="7ea7e27e-cf92-42eb-8c58-bd133ec47759" name="Default Changelist" comment="-">
+      <change beforePath="$PROJECT_DIR$/very_easy_test_app/Tools/DataGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/very_easy_test_app/Tools/DataGenerator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +52,13 @@
         <option value="$PROJECT_DIR$/very_easy_test_app/Controllers/DTOHomeOwnerController.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app/Controllers/BaseCRUDApiController.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app/Controllers/DTOHomeController.cs" />
-        <option value="$PROJECT_DIR$/very_easy_test_app/Tools/DataGenerator.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/BaseControllerTest.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/TestsHttpClient.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/LaunchSettingsFixture.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/CustomWebApplicationFactory.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/HomeOwenerControllerTest.cs" />
+        <option value="$PROJECT_DIR$/very_easy_test_app/Tools/DataGenerator.cs" />
       </list>
     </option>
   </component>
@@ -127,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604130251151</updated>
       <workItem from="1604130256383" duration="7889000" />
-      <workItem from="1604202732752" duration="823000" />
+      <workItem from="1604202732752" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1604130343558</created>
@@ -192,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604202862652</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="-">
+      <created>1604203579936</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604203579936</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,10 +243,10 @@
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="2315" y="198" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604203008726" />
-    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604202885220">
+    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604203581159">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604202885220" />
+    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604203581159" />
     <state x="2524" y="375" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604130320189">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>

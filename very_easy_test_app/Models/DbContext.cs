@@ -11,7 +11,7 @@ namespace very_easy_test_app.Models
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
-        public DbSet<HomeEntity> HomeOwer { get; set; }
+        public DbSet<HomeEntity> Home { get; set; }
         public DbSet<HomeOwenerEntity> HomeOwener { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
