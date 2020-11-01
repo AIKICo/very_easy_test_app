@@ -14,12 +14,6 @@ namespace very_easy_test_app.Models
         public DbSet<HomeEntity> Home { get; set; }
         public DbSet<HomeOwenerEntity> HomeOwener { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.EnableSensitiveDataLogging();
-        }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
