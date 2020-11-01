@@ -17,7 +17,6 @@ namespace very_easy_test_app.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseInMemoryDatabase("HouseManagement");
             optionsBuilder.EnableSensitiveDataLogging();
         }
 

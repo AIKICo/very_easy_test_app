@@ -2,6 +2,7 @@ using Arch.EntityFrameworkCore.UnitOfWork;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,7 +27,7 @@ namespace very_easy_test_app
             services.AddHttpContextAccessor();
             services.AddAutoMapper(typeof(HomeMapperProfile));
             services.RegisterService();
-            services.AddDbContext<dbContext>().AddUnitOfWork<dbContext>();
+            services.AddDbContext<dbContext>(options=> options.UseInMemoryDatabase(databaseName:"HomeDatabase")).AddUnitOfWork<dbContext>();
             services.AddControllersWithViews().AddNewtonsoftJson();
         }
 
