@@ -8,7 +8,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ea7e27e-cf92-42eb-8c58-bd133ec47759" name="Default Changelist" comment="Initialize" />
+    <list default="true" id="7ea7e27e-cf92-42eb-8c58-bd133ec47759" name="Default Changelist" comment="Initialize">
+      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/BaseControllerTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/CustomWebApplicationFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/HomeOwenerControllerTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/LaunchSettingsFixture.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/TestsHttpClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_easy_test_app_integration_test/very_easy_test_app_integration_test.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.very_easy_test_app/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.very_easy_test_app/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.very_easy_test_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.very_easy_test_app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_easy_test_app.sln" beforeDir="false" afterPath="$PROJECT_DIR$/very_easy_test_app.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +61,12 @@
         <option value="$PROJECT_DIR$/very_easy_test_app/Controllers/BaseCRUDApiController.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app/Controllers/DTOHomeController.cs" />
         <option value="$PROJECT_DIR$/very_easy_test_app/Tools/DataGenerator.cs" />
+        <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/BaseControllerTest.cs" />
+        <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/TestsHttpClient.cs" />
+        <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/LaunchSettingsFixture.cs" />
+        <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/CustomWebApplicationFactory.cs" />
+        <option value="$PROJECT_DIR$/very_easy_test_app_integration_test/HomeOwenerControllerTest.cs" />
       </list>
     </option>
   </component>
@@ -63,6 +79,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -110,6 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604130251151</updated>
       <workItem from="1604130256383" duration="7889000" />
+      <workItem from="1604202732752" duration="823000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1604130343558</created>
@@ -167,13 +185,20 @@
       <option name="project" value="LOCAL" />
       <updated>1604137611601</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="-">
+      <created>1604202862652</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604202862652</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -185,11 +210,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initialize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2455" y="328" width="519" height="277" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1604135001213">
@@ -212,10 +240,14 @@
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state width="1554" height="216" key="GridCell.Tab.0.right/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604138175384" />
-    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604137612523">
+    <state x="2315" y="198" width="800" height="537" key="Rider.ProjectTemplateDialog.Size" timestamp="1604203008726">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604137612523" />
+    <state x="2315" y="198" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604203008726" />
+    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604202885220">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2315" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1600.900/0.27.1920.1053@1920.0.1600.900" timestamp="1604202885220" />
     <state x="2524" y="375" width="381" height="183" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604130320189">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
